@@ -1,0 +1,4 @@
+{"backend_state":"init","kernel":"cv_env","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"trust":true,"type":"settings"}
+{"id":"a4cdd8","input":"","pos":0,"state":"done","type":"cell"}
+{"id":0,"time":1654547090210,"type":"user"}
+{"last_load":1654546484887,"type":"file"}
