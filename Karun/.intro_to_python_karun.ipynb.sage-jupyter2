@@ -130,5 +130,5 @@
 {"cell_type":"markdown","id":"fdd050","input":"Alternatively you can look at just 1 row at a time by calling it similarly to a dictionary","pos":105,"type":"cell"}
 {"cell_type":"markdown","id":"fe789b","input":"Now to create a sample dataframe. Dataframes are the main feature of pandas. You can think of them as more advanced dictionaries.","pos":100,"type":"cell"}
 {"cell_type":"markdown","id":"ff1020","input":"We will learn more about for loops in the next lesson. For now, we will use them to go through a list and print out each element.","pos":46,"type":"cell"}
-{"id":0,"time":1654710871641,"type":"user"}
-{"last_load":1654710871897,"type":"file"}
+{"id":0,"time":1655748692023,"type":"user"}
+{"last_load":1655144250319,"type":"file"}

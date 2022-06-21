@@ -31,5 +31,5 @@
 {"cell_type":"markdown","id":"d29c60","input":"## Training our Model\n\nThe training process goes somewhat like this\ngo through the dataset [epoch] times<br>\n&ensp;  go through each image in the dataset<br>\n&ensp;&ensp; transfer inputs and labels to GPU<br>\n&ensp;&ensp; get prediction for input<br>\n&ensp;&ensp; check if prediction matches label, get loss<br>\n&ensp;&ensp; see which direction you have to change the weights<br>\n&ensp;&ensp; actually change weights using optimizer and learning rate\n&ensp;&ensp; Set the directions back to zero (optim.zero_grad())<br>\n&ensp;&ensp; add loss to total loss until reset<br>\n&ensp;&ensp; after some iterations, print out loss and reset\n\nFew more things to note. NLLLoss is the default loss function for softmax (probabilities that are far away from the true probabilities are penalized). ","metadata":{"id":"1HqqlulNwyqb"},"pos":21,"type":"cell"}
 {"cell_type":"markdown","id":"e24825","input":"Run Prediction","metadata":{"id":"q2ZVmfom6XsO"},"pos":29,"type":"cell"}
 {"cell_type":"markdown","id":"e4fbe7","input":"<h1>Getting Set Up</h1>","metadata":{"id":"KU8e-P7CDkvN"},"pos":1,"type":"cell"}
-{"id":0,"time":1655237901187,"type":"user"}
-{"last_load":1655237559901,"type":"file"}
+{"id":0,"time":1655748888572,"type":"user"}
+{"last_load":1655748889106,"type":"file"}
